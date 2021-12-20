@@ -1,0 +1,131 @@
+:root {
+  --primary-blue: hsl(223, 87%, 63%);
+  --pale-blue: hsl(223, 100%, 88%);
+  --light-red: hsl(354, 100%, 66%);
+  --neutral-gray: hsl(0, 0%, 59%);
+  --verydark-blue: hsl(209, 33%, 12%);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title h3 span {
+  color: var(--neutral-gray);
+}
+
+.logoContainer {
+  padding: 3rem;
+}
+
+.title {
+  padding-bottom: 2rem;
+  font-size: 1.4rem;
+}
+
+.title p {
+  padding-top: 1rem;
+  font-size: 16px;
+}
+
+/* .inputContainer{
+    width: 50%;
+    
+} */
+
+.inputContainer input{
+  width: 350px;
+  padding: 1rem;
+  border-radius: 30px;
+  text-align: left;
+  color: var(--pale-blue);
+  border: 1px solid var(--pale-blue);
+}
+
+.inputContainer.error input{
+    border-color: var(--light-red);
+    color: var(--light-red);
+}
+
+.inputContainer.error {
+    color: var(--light-red);
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.success {
+    color: green;
+}
+
+#message {
+    padding-top: 10px;
+}
+
+@media(min-width: 768px) {
+    .inputContainer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   #submit {
+        width: 175px;
+    }
+    
+}
+
+.inputContainer button {
+    cursor: pointer;
+  width: 350px;
+  padding: 1rem;
+  margin-top: 15px;
+  border-radius: 30px;
+  color: white;
+  font-size: 1rem;
+  background-color: var(--primary-blue);
+  border: none;
+  -webkit-box-shadow: 5px 5px 10px -2px #b8ccff;
+  box-shadow: 5px 5px 10px -2px #b8ccff;
+}
+
+.illustration img {
+    max-width: 350px;
+    padding: 4rem 1rem;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-blue);
+    padding: 2rem;
+}
+
+.social-media i {
+    cursor: pointer;
+    margin: 1rem;
+    padding: 12px;
+    font-size: 20px;
+    border: 1px solid var(--pale-blue);
+    border-radius: 50%;
+}
+
+.social-media i:hover {
+    background-color: var(--primary-blue);
+    color: white;
+}
+
+footer p {
+    color: var(--neutral-gray);
+}
+
