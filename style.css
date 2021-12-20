@@ -77,9 +77,18 @@ body {
         align-items: center;
         justify-content: center;
     }
+
    #submit {
+     margin: 0px;
+    margin-left: 16px;
         width: 175px;
     }
+
+    #dash{
+      width: 500px;
+    }
+
+   
     
 }
 
@@ -98,7 +107,7 @@ body {
 }
 
 .illustration img {
-    max-width: 350px;
+    width: 350px;
     padding: 4rem 1rem;
 }
 
