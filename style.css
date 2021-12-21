@@ -120,7 +120,7 @@ body {
     align-items: center;
     justify-content: center;
     color: var(--primary-blue);
-    padding: 2rem;
+    
 }
 
 .social-media i {
@@ -139,5 +139,11 @@ body {
 
 footer p {
     color: var(--neutral-gray);
+}
+
+footer {
+  font-size: 12px;
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
 }
 
