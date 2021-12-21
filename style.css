@@ -48,7 +48,6 @@ body {
   padding: 1rem;
   border-radius: 30px;
   text-align: left;
-  color: var(--pale-blue);
   border: 1px solid var(--pale-blue);
 }
 
@@ -104,6 +103,10 @@ body {
   border: none;
   -webkit-box-shadow: 5px 5px 10px -2px #b8ccff;
   box-shadow: 5px 5px 10px -2px #b8ccff;
+}
+
+.inputContainer button:hover {
+  background-color: var(--pale-blue);
 }
 
 .illustration img {
