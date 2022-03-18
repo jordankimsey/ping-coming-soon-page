@@ -15,7 +15,10 @@ button.addEventListener('click', () => {
         text.classList.add('success');
         text.innerHTML = 'Success!';
         email.value = '';
-        s
+        setTimeout(() => {
+          text.innerHTML = '';
+           text.classList.remove('success');
+        }, 3500);
     } else {
         text.innerText = 'Please provide a valid email address';
         inputContainer.classList.add('error');
